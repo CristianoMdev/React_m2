@@ -8,7 +8,8 @@ function DadosEntrega(){
         <TextField 
           id="cep" 
           label="CEP" 
-          type="number" 
+          type="number"
+          required 
           variant="outlined" 
           margin="normal" 
         />
@@ -23,21 +24,24 @@ function DadosEntrega(){
         <TextField 
           id="numero" 
           label="Número" 
-          type="number" 
+          type="number"
+          required 
           variant="outlined" 
           margin="normal" 
         />
         <TextField 
           id="estado" 
           label="Estado" 
-          type="text" 
+          type="text"
+          required 
           variant="outlined" 
           margin="normal" 
         />
         <TextField 
           id="cidade" 
           label="Cidade" 
-          type="text" 
+          type="text"
+          required 
           variant="outlined" 
           margin="normal" 
         />

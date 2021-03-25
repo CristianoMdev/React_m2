@@ -25,7 +25,8 @@ const [erros, setErros] = useState({cpf:{valido:true, texto:""}})
         }}
 
         id="nome" 
-        label="Nome" 
+        label="Nome"
+        required 
         variant="outlined"  
         margin="normal"
         fullWidth 
@@ -38,7 +39,8 @@ const [erros, setErros] = useState({cpf:{valido:true, texto:""}})
         } 
        }
        id="sobrenome" 
-       label="Sobrenome" 
+       label="Sobrenome"
+       required 
        variant="outlined"  
        margin="normal"
        fullWidth 
@@ -57,7 +59,8 @@ const [erros, setErros] = useState({cpf:{valido:true, texto:""}})
        error={!erros.cpf.valido}
        helperText={erros.cpf.texto}
        id="Cpf" 
-       label="CPF" 
+       label="CPF"
+       required 
        variant="outlined"  
        margin="normal"
        fullWidth 
