@@ -13,7 +13,7 @@ const formularios = [
   <DadosEntrega aoEnviar={aoEnviar} />
 ];
 
-function proximo(){
+function proximo(dados){
   setEtapaAtual(etapaAtual+1)
 }
 
